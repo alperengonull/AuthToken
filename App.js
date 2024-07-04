@@ -13,10 +13,6 @@ const NormalStack = () => {
       backgroundColor: 'blueviolet',
     },
     headerTintColor: 'white',
-    contentStyle:{
-      backgroundColor: 'blueviolet',
-    }
-    
     }} >
       <Stack.Screen name="Login" component={LoginScreen} options={
         {
